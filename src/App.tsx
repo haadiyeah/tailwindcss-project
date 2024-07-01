@@ -1,11 +1,15 @@
 import React from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient.jsx";
+import Button from "./components/Button";
+import Header from "./components/Header.js";
 
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-      <ButtonGradient />
+      <div className="pt-4 lg:pt-5 overflow-hidden ring-1 ring-red-600">
+        <Header />
+      </div>
+
     </>
   );
 };
